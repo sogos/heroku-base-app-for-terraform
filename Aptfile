@@ -1,0 +1,25 @@
+# Anything that is compatible with the IJG JPEG library. Use mozjpeg if you can. Another option is libjpeg-turbo.
+libjpeg-turbo8-dev
+# If available, libvips adds support for EXIF metadata in JPEG files.
+libexif-dev
+# Allow libvips to read and write GIF images.
+libgif-dev
+# The usual SVG loader. If this is not present, vips will try to load SVGs via imagemagick instead.
+librsvg2-dev
+# The Poppler PDF renderer, with a glib API. If this is not present, vips will try to load PDFs via imagemagick.
+libpoppler-glib-dev
+# The TIFF library. It needs to be built with support for JPEG and ZIP compression. 3.4b037 and later are known to be OK.
+libtiff-dev
+# If present, libvips will load and save PNG files using libspng. If not, it will look for the standard libpng package.
+libpng-dev
+# If available, vips can load and save WebP images.
+libwebp-dev
+# If available, libvips can load and save HEIC and AVIF images. Your libheif (in turn) needs to be built with the correct decoders and encoders.
+libheif-dev
+# ImageMagick libs
+libmagickcore-dev
+libmagickwand-dev
+# If one of these quantisation packages is present, libvips can write 8-bit palette-ised PNGs and GIFs.
+libimagequant-dev
+# Install libvips42
+libvips42
